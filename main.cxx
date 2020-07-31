@@ -3,7 +3,8 @@
 
 void foo()
 {
-    pokemon weedle("Weedle", "worm thing", 10.0, 20.0, 1,2);
+    pokemon weedle(1, "Bulbasaur","Grass","Poison",318,45,49,49,65,65,45,1,0);
+    weedle.printStats();
 }
 
 int main()
