@@ -37,7 +37,19 @@ struct pokemon
 
     //pokemon(Name name, Type type, Height height, Weight weight, Level level, PokemonID pid);
 
-    pokemon(PokemonID pid, Name name, Type_main type_main, Type_sub type_sub, Total total, HP hp, Attack attack, Defence defence, Attack_special attack_special, Defence_special defence_special, Speed speed, Generation generation, Legendary legendary);
+    pokemon(PokemonID pid,
+            Name name,
+            Type_main type_main,
+            Type_sub type_sub,
+            Total total,
+            HP hp,
+            Attack attack,
+            Defence defence,
+            Attack_special attack_special,
+            Defence_special defence_special,
+            Speed speed,
+            Generation generation,
+            Legendary legendary);
 
     pokemon() = delete;
 

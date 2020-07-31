@@ -45,16 +45,16 @@ void pokemon::printStats()
     cout << "Weight       " << weight_ <<  endl;
     cout << "Level        " << level_  <<  endl; */
 
-    cout << "name" << name_ << endl;
-    cout << "type_main" << type_main_ << endl;
-    cout << "type_sub" << type_sub_ << endl;
-    cout << "total" << total_ << endl;
-    cout << "hp" << hp_ << endl;
-    cout << "attack" << attack_ << endl;
-    cout << "defence" << defence_ << endl;
-    cout << "attack_special" << attack_special_ << endl;
-    cout << "defence_special" << defence_special_ << endl;
-    cout << "speed" << speed_ << endl;
-    cout << "generation" << generation_ << endl;
-    cout << "legendary" << legendary_ << endl;
+    cout << "name " << name_ << endl;
+    cout << "type_main " << type_main_ << endl;
+    cout << "type_sub " << type_sub_ << endl;
+    cout << "total " << total_ << endl;
+    cout << "hp " << hp_ << endl;
+    cout << "attack " << attack_ << endl;
+    cout << "defence " << defence_ << endl;
+    cout << "attack_special " << attack_special_ << endl;
+    cout << "defence_special " << defence_special_ << endl;
+    cout << "speed " << speed_ << endl;
+    cout << "generation " << generation_ << endl;
+    cout << "legendary " << legendary_ << endl;
 }
